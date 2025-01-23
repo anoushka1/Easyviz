@@ -57,4 +57,4 @@ else:
 
 # Pied de page
 st.markdown("---")
-st.markdown("Créé avec ❤️ par [Votre Nom ou Organisation]")
+st.markdown("Créé avec ❤️ par Jinshan LI,Karim OURDEDINE,Ines  BEN MOUSSA,Moyi ZHANG")
