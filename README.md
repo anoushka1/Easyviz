@@ -10,4 +10,4 @@
 ## Installation
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-nom/Easyviz.git
+   git clone https://github.com/anoushka1/Easyviz.git
