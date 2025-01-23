@@ -90,3 +90,7 @@ if uploaded_file is not None:
             sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
             ax.set_title("Matrice de corrélation")
             st.pyplot(fig)
+            
+# Pied de page
+st.markdown("---")
+st.markdown("Créé avec ❤️ par Jinshan LI,Karim OURDEDINE,Ines  BEN MOUSSA,Moyi ZHANG")
