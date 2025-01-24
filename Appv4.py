@@ -37,11 +37,8 @@ def download_plot(fig, filename="graphique.png"):
 
 # Titre de l'application
 st.title("📊 Easyviz")
+st.image("Easyviz.png", width=150)
 st.markdown("""
-<div style="display: flex; align-items: center;">
-    <img src="https://www.canva.com/design/DAGdGuEF8eI/OMJfwjPF_obiNe7dAEnCvg/edit?utm_content=DAGdGuEF8eI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" >
-    <h1 style="display: inline-block;">📊 EasyViz</h1>
-</div>
 """, unsafe_allow_html=True)
 st.markdown("""
 Bienvenue sur cette application de visualisation des données ! 
