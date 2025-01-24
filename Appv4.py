@@ -36,7 +36,7 @@ def download_plot(fig, filename="graphique.png"):
     return buf
 
 # Titre et logo de l'application
-st.image("Easyviz.png", width=500)
+st.image("Easyviz.png", width=350)
 st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("""
