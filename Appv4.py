@@ -6,7 +6,7 @@ import plotly.express as px
 from io import BytesIO
 
 # Configuration de la page
-st.set_page_config(page_title="Visualisation des données", layout="wide")
+st.set_page_config(page_title="Easyviz", layout="wide")
 
 # CSS pour ajouter un fond personnalisé
 st.markdown(
@@ -36,7 +36,13 @@ def download_plot(fig, filename="graphique.png"):
     return buf
 
 # Titre de l'application
-st.title("📊 Visualisation des données interactives avec animations")
+st.title("📊 Easyviz")
+st.markdown("""
+<div style="display: flex; align-items: center;">
+    <img src="https://via.placeholder.com/50" alt="Logo EasyViz" style="margin-right: 15px;">
+    <h1 style="display: inline-block;">📊 EasyViz</h1>
+</div>
+""", unsafe_allow_html=True)
 st.markdown("""
 Bienvenue sur cette application de visualisation des données ! 
 Téléversez un fichier CSV pour explorer et visualiser vos données.
@@ -159,4 +165,4 @@ else:
 
 # Pied de page
 st.markdown("---")
-st.markdown("Créé avec ❤️ par [Votre Nom]")
+st.markdown("Créé avec ❤️ par Jinshan LI,Karim OURDEDINE,Ines BEN MOUSSA,Moyi ZHANG")
