@@ -1,0 +1,51 @@
+/* Styles généraux */
+body {
+    background-color: #f5f7fa; /* Couleur de fond */
+    color: #333333; /* Couleur du texte */
+    font-family: "Arial", sans-serif;
+}
+
+/* Arrière-plan avec une texture */
+.stApp {
+    background-image: url('https://www.transparenttextures.com/patterns/white-paper.png');
+    background-size: cover;
+}
+
+/* Styles des titres */
+h1, h2, h3, h4 {
+    color: #004080; /* Couleur des titres */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons */
+button {
+    background-color: #007BFF; /* Couleur principale */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Boutons au survol */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Bordures et conteneurs */
+.stDataFrame {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Amélioration des onglets */
+.stTabs {
+    border-bottom: 2px solid #004080;
+}
